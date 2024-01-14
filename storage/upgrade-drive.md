@@ -38,6 +38,11 @@ Videos:
 ## RAID (Reduency, not a Backup)
 - RAID1 (Mirroring)
 
+## RAID VIDEOS
+- [RAID 0, RAID 1, RAID 10 - All You Need to Know as Fast As Possible](https://www.youtube.com/embed/eE7Bfw9lFfs)
+- [Set up RAID 1 Mirroring on Window 10 Pro](https://www.youtube.com/embed/7nga6Nydy3M)
+- [Hardware Raid is Dead and is a Bad Idea in 2022](https://www.youtube.com/embed/l55GfAwa8RI)
+
 ## Backup
 - External Drive/Card
 - NAS
