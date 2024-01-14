@@ -18,9 +18,9 @@ USE AT YOUR OWN RISK.
 - M.2
 
 ## Hardware
-SATA to USB
-External SATA Enclosure
-CD/DVD Drive to HDD/SSD Drive
+- SATA to USB
+- External SATA Enclosure
+- CD/DVD Drive to HDD/SSD Drive
 
 ## File Based vs Block Based 
 - Windows
