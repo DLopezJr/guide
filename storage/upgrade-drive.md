@@ -28,6 +28,10 @@ CD/DVD Drive to HDD/SSD Drive
 
 Do not use [dd](https://en.wikipedia.org/wiki/Dd_(Unix)).
 
+Use a live linux iso on an external drive. When you clone a disk, you need to make sure that no files are being edited/copied in the background. Using Clonezilla/Rescuezilla gurantee no files are being edited in the background.
+
+Rescuezilla is easier for most people, but Clonezilla has been around forever.
+
 - [Clonezilla](https://clonezilla.org/)
 - [Rescuezila](https://rescuezilla.com/)
 
