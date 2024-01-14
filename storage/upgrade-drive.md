@@ -8,7 +8,11 @@ External SATA Enclosure
 
 Do not use [dd](https://en.wikipedia.org/wiki/Dd_(Unix)).
 
+- [Clonezilla](https://clonezilla.org/)
+- [Rescuezila](https://rescuezilla.com/)
+
 Videos:
+- [What are Drive Imaging and Drive Cloning?](https://www.youtube.com/embed/jrJTQF3o5c4)
 - [Drive Cloning & Imaging](https://www.youtube.com/embed/UTsq-HHz0Ss)
 
 ## RAID (Reduency, not a Backup)
