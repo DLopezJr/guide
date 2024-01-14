@@ -24,6 +24,7 @@ Videos:
 - [Drive Cloning & Imaging](https://www.youtube.com/embed/UTsq-HHz0Ss)
 
 ## RAID (Reduency, not a Backup)
+- RAID1 (Mirroring)
 
 ## Backup
 - External Drive/Card
