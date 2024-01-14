@@ -40,6 +40,7 @@ Videos:
 
 ## RAID VIDEOS
 - [RAID 0, RAID 1, RAID 10 - All You Need to Know as Fast As Possible](https://www.youtube.com/embed/eE7Bfw9lFfs)
+- [What is RAID 0, 1, 5, & 10?](https://www.youtube.com/embed/U-OCdTeZLac)
 - [Set up RAID 1 Mirroring on Window 10 Pro](https://www.youtube.com/embed/7nga6Nydy3M)
 - [Hardware Raid is Dead and is a Bad Idea in 2022](https://www.youtube.com/embed/l55GfAwa8RI)
 
