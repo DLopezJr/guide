@@ -38,8 +38,11 @@ Rescuezilla is easier for most people, but Clonezilla has been around forever.
 Videos:
 - [What are Drive Imaging and Drive Cloning?](https://www.youtube.com/embed/jrJTQF3o5c4)
 - [EASY WAY TO Migrate Windows to Another Drive, FOR FREE! Boot Media with Rescuezilla](https://www.youtube.com/embed/znQXKbJvdtY?t=67)
+- [Clone Any System (using Clonezilla)](https://www.youtube.com/embed/yQ9NpWZ74BU?t=66)
 - [Drive Cloning & Imaging](https://www.youtube.com/embed/UTsq-HHz0Ss) //Uses Macrium
 - [Free Drive Cloning Applications](https://www.youtube.com/embed/1gTJw8ehkVc)
+
+The most common pitfall is trying to clone a LARGER drive into a SMALLER drive. This can be done with [gparted](https://en.wikipedia.org/wiki/GParted).
 
 ## RAID (Reduency, not a Backup)
 - RAID1 (Mirroring)
