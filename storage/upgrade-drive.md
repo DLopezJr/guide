@@ -4,6 +4,14 @@
 SATA to USB
 External SATA Enclosure
 
+## File Based vs Block Based 
+- Windows
+  - robocopy
+  - xcopy
+- macOS/Linux
+  - cp
+  - rsync
+
 ## Cloning a Disk
 
 Do not use [dd](https://en.wikipedia.org/wiki/Dd_(Unix)).
