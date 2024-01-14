@@ -19,9 +19,10 @@ CD/DVD Drive to HDD/SSD Drive
 - Windows
   - robocopy
   - xcopy
+  - copy
 - macOS/Linux
-  - cp
   - rsync
+  - cp
 
 ## Cloning a Disk
 
