@@ -8,7 +8,7 @@ DO THIS AT YOUR OWN RISK. I OFFER NO WARRENTY FOR ANY DAMAGE DONE TO YOUR DISK. 
 
 IF USING A BATTERY POWERED DEVICE, PLUG IN THE DEVICE AT ALL TIME. THE DEVICE POWERING OFF CAN CAUSE PERMEMANT DATA LOSS.
 
-USE AT YOUR OWN RISK.
+USE AT YOUR OWN RISK. IT IS HIGHLY RECCOMENDED TO DO A FILE-BASED BACKUP FIRST.
 
 ## Options
 
@@ -37,10 +37,28 @@ Do not use [dd](https://en.wikipedia.org/wiki/Dd_(Unix)).
 
 Use a live linux iso on an external drive. When you clone a disk, you need to make sure that no files are being edited/copied in the background. Using Clonezilla/Rescuezilla gurantee no files are being edited in the background.
 
-Rescuezilla is easier for most people, but Clonezilla has been around forever.
-
 - [Clonezilla](https://clonezilla.org/)
 - [Rescuezila](https://rescuezilla.com/)
+
+ISSUES TO LOOK OUT FOR: 
+- IF USING WINDOWS
+  - Use this shutdown command to fully shut the system down: ```shutdown /s /f /t 0```
+  - Windows does not allow you to boot a cloned system drive from USB.
+  - ```diskmgmt```
+
+BIOS
+- Check device manual for bios/boot button.
+- Check CSM is enabled
+- Secure Boot is disabled before using clonezilla/rescurezilla.
+- Disable Fast Boot if not able to access boot menu easily
+- Check Hard Drive BBS Priorties if Clonezilla/Rescurezilla drive does not appear.
+
+CLONE TO DISK OR CLONE TO IMAGE
+
+AFTER CLONE
+- If moving upgrading from HDD to SSD
+  - To use the HDD as a secondary drive, you will need to reformat it.
+    - It needs to be changed from a C:\ drive to another letter.  
 
 Videos:
 - [What are Drive Imaging and Drive Cloning?](https://www.youtube.com/embed/jrJTQF3o5c4)
