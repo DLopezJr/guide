@@ -1,3 +1,6 @@
+REASONING
+- the "N" version of Windows is stripped of everything related to Windows Media Player and it's .DLL files
+
 windows media player can be installed from Microsoft store with no account
 - winget list --name "Windows Media Player"
 - winget download "Windows Media Player"
