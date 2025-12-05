@@ -1,8 +1,9 @@
 : Check if admin is activated
 NET user administrator | FIND /C:"Account active"
 
-: Active admin 
+: Active/Deactive admin 
 NET user administrator /active:yes
+NET user Administrator /active:no
 
 : Attempt to elevate to admin
 RUNAS /user:Administrator %CMD%
