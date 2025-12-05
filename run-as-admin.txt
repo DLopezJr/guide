@@ -1,3 +1,6 @@
+https://ss64.com/nt/syntax-elevate.html
+---
+
 : POWERSHELL
 
 : Check if admin
