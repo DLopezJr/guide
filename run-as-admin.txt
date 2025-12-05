@@ -1,0 +1,4 @@
+: Check if admin
+NET user administrator | FIND /C:"Account active"
+
+runas
