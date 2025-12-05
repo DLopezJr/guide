@@ -1,4 +1,7 @@
-: Check if admin
+: Check if admin is activated
 NET user administrator | FIND /C:"Account active"
 
-runas
+: Active admin 
+NET user administrator /active:yes
+
+RUNAS /user:Administrator %CMD%
