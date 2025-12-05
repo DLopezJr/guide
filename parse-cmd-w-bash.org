@@ -1,0 +1,1 @@
+ powershell 'cmd /c "net user administrator"' | awk '/Account active/ {print($3)}'
