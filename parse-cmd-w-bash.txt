@@ -1,1 +1,3 @@
  powershell 'cmd /c "net user administrator"' | awk '/Account active/ {print($3)}'
+
+Add SCOOP path to %PATH%
