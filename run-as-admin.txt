@@ -1,7 +1,11 @@
+: POWERSHELL
+
+---
+: BATCH
+
 : Check if elevated session
 
 NET session 1>NUL 2>NUL
----
 
 : Check if admin is activated
 NET user administrator | FIND /C:"Account active"
