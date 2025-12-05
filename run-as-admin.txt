@@ -4,4 +4,8 @@ NET user administrator | FIND /C:"Account active"
 : Active admin 
 NET user administrator /active:yes
 
+: Attempt to elevate to admin
 RUNAS /user:Administrator %CMD%
+
+: If password doesnt work, maybe change it
+NET user administrator *
