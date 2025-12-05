@@ -6,6 +6,9 @@
 : Forces Admin
 #Requires -RunAsAdministrator
 
+: Opens elevated terminal
+powershell -Command "Start-Process cmd -Verb RunAs"
+
 ---
 : BATCH
 
