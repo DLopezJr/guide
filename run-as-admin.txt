@@ -1,10 +1,12 @@
 : POWERSHELL
 
+: Check if admin
+[bool]([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+
 ---
 : BATCH
 
 : Check if elevated session
-
 NET session 1>NUL 2>NUL
 
 : Check if admin is activated
